@@ -153,10 +153,19 @@ executable day8
 executable day9
     import:           warnings
     main-is:          Main.hs
-    build-depends:    array ^>=0.5.8.0,
-                      base ^>=4.21.0.0,
+    build-depends:    base ^>=4.21.0.0,
                       megaparsec ^>= 9.7.0,
                       utility-ht ^>= 0.0.17.2,
     hs-source-dirs:   day9
+
+    default-language: GHC2024
+
+executable day10
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.21.0.0,
+                      megaparsec ^>= 9.7.0,
+                      utility-ht ^>= 0.0.17.2,
+    hs-source-dirs:   day10/
 
     default-language: GHC2024
